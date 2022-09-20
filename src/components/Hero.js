@@ -1,8 +1,8 @@
 import React from "react";
 import {Carousel} from 'react-bootstrap';
-// import Banner1 from '..\images\Banner\Haircare Web banner_2000 px X 600 px.jpg';
-// import Banner2 from '..\images\Banner\Skincare Web banner_2000 px X 600 px.jpg';
-// import Banner3 from '..\images\Banner\Mix Banner_2000 px X 600 px.jpg';
+import Banner1 from '../images/Banner/skincare2.jpg';
+import Banner2 from '../images/Banner/haircare2.jpg';
+import Banner3 from '../images/Banner/mixbanner2.jpg';
 
 
 
@@ -13,12 +13,12 @@ function Hero() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          style={{height : 600}}
-          src="https://cdn.searchenginejournal.com/wp-content/uploads/2022/06/image-search-1600-x-840-px-62c6dc4ff1eee-sej-1280x720.png"
+          // style={{height : 600}}
+          src={Banner1}
           alt="First slide"
         />
         <Carousel.Caption>
-        <div class="ps-lg-12 py-lg-16 col-xxl-5 col-md-7 py-14 px-8 text-xs-center">
+        {/* <div class="ps-lg-12 py-lg-16 col-xxl-5 col-md-7 py-14 px-8 text-xs-center">
                     <span class="badge text-bg-warning" >
                       Free Shipping - orders over ₹ 500
                     </span>
@@ -34,20 +34,20 @@ function Hero() {
                       Shop Now{" "}
                       <i class="feather-icon icon-arrow-right ms-1"></i>
                     </a>
-          </div>
+          </div> */}
           
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          style={{height : 600 }}
-          src="ho"
+          // style={{height : 600 }}
+          src={Banner2}
           alt="Second slide"
         />
 
         <Carousel.Caption>
-        <div class="ps-lg-12 py-lg-16 col-xxl-5 col-md-7 py-14 px-8 text-xs-center">
+        {/* <div class="ps-lg-12 py-lg-16 col-xxl-5 col-md-7 py-14 px-8 text-xs-center">
                     <span class="badge text-bg-warning" >
                       Free Shipping - orders over ₹ 500
                     </span>
@@ -63,20 +63,19 @@ function Hero() {
                       Shop Now{" "}
                       <i class="feather-icon icon-arrow-right ms-1"></i>
                     </a>
-          </div>
+          </div> */}
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          style={{height : 600}}
-          // url = "..\images\Banner\Mix Banner_2000 px X 600 px.jpg"
-          // src="holder.js/800x400?text=Third slide&bg=20232a"
+          // style={{height : 600}}
+          src = {Banner3}
           alt="Third slide"
         />
 
         <Carousel.Caption>
-        <div class="ps-lg-12 py-lg-16 col-xxl-5 col-md-7 py-14 px-8 text-xs-center">
+        {/* <div class="ps-lg-12 py-lg-16 col-xxl-5 col-md-7 py-14 px-8 text-xs-center">
                     <span class="badge text-bg-warning" >
                       Free Shipping - orders over ₹ 500
                     </span>
@@ -92,7 +91,7 @@ function Hero() {
                       Shop Now{" "}
                       <i class="feather-icon icon-arrow-right ms-1"></i>
                     </a>
-          </div>
+          </div> */}
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
